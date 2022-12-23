@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:boder-box;
+    scroll-behavior:smooth;
+
+}
+div{
+    display:flex;
+    align-items:center;
+}
+body{
+    background:black;
+
+}
+div h1{
+    margin-top:10px;
+    display:flex;
+    color:yellow;
+    text-align:center;
+    font-family:sans-serif,'Times New Roman', Times, serif;
+    margin-left:30%;
+    text-transform:uppercase;
+}
+.image{
+    position:absolute;
+    width:50vw;
+    left:25%;
+    margin-top:24%;
+    display:flex;
+    align-items:center;
+}
+button{
+    font-size:20px;
+    background:blueviolet;
+    color:black;
+}
